@@ -279,14 +279,7 @@ Transformers have emerged as powerful tools for various cybersecurity applicatio
 
 5. **False Positives**: While better than traditional methods, can still generate alerts requiring human verification.
 
-## Future Directions
 
-The application of Transformers in cybersecurity continues to evolve with:
-- **Multimodal models** combining text, network traffic, and system behavior
-- **Federated learning** approaches for privacy-preserving threat detection
-- **Explainable AI** techniques to improve transparency
-- **Edge deployment** for real-time threat detection on resource-constrained devices
-- **Integration with security orchestration** platforms for automated response
 
 ## Conclusion
 
