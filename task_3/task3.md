@@ -2,11 +2,8 @@
 
 A machine learning system for distinguishing between VPN and TOR network traffic using behavioral and statistical features.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![ML](https://img.shields.io/badge/ML-scikit--learn-orange)
 
----
+
 
 ## 📋 Table of Contents
 
@@ -70,32 +67,7 @@ This project implements a machine learning classifier that can distinguish betwe
 
 ### Prerequisites
 
-```bash
-Python 3.8 or higher
-pip (Python package manager)
-```
-
-### Step 1: Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd task_3
-```
-
-### Step 2: Create Virtual Environment (Recommended)
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-```
-
-### Step 3: Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -360,12 +332,13 @@ After training, you'll find these visualizations in the `results/` folder:
 #### 1. Confusion Matrix (`confusion_matrix.png`)
 Shows the number of correct and incorrect predictions for each class.
 
-![Confusion Matrix Example](https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Confusion+Matrix)
+<img width="2844" height="2368" alt="confusion_matrix" src="https://github.com/user-attachments/assets/889ff5fb-f9c1-4b01-a603-3655820894a7" />
 
 #### 2. ROC Curve (`roc_curve.png`)
 Displays the trade-off between true positive rate and false positive rate.
 
-![ROC Curve Example](https://via.placeholder.com/600x400/50C878/FFFFFF?text=ROC+Curve)
+<img width="2964" height="2366" alt="roc_curve" src="https://github.com/user-attachments/assets/a6c69879-c5e4-4a23-9c83-ca9ebfd43416" />
+
 
 #### 3. Feature Importance (`feature_importance.png`)
 Ranks features by their contribution to classification accuracy.
@@ -627,12 +600,6 @@ classifier.model.max_depth = 25
    - Wang, T., & Goldberg, I. (2013). "Improved website fingerprinting on Tor"
    - Montieri, A., et al. (2017). "Anonymity services tor, i2p, jondonym: Classifying in the dark"
 
-### Tools & Libraries
-
-- **scikit-learn**: [https://scikit-learn.org/](https://scikit-learn.org/)
-- **Pandas**: [https://pandas.pydata.org/](https://pandas.pydata.org/)
-- **Matplotlib**: [https://matplotlib.org/](https://matplotlib.org/)
-- **Seaborn**: [https://seaborn.pydata.org/](https://seaborn.pydata.org/)
 
 ### Dataset Sources (Real Data)
 
@@ -643,39 +610,3 @@ For production use with real traffic data:
 - **CAIDA Anonymized Traces**: [https://www.caida.org/catalog/datasets/](https://www.caida.org/catalog/datasets/)
 
 ---
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
----
-
-## 👥 Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
----
-
-## 📧 Contact
-
-For questions or issues, please open an issue on GitHub or contact the maintainer.
-
----
-
-## 🔄 Version History
-
-- **v1.0.0** (2024): Initial release
-  - Random Forest, Gradient Boosting, SVM support
-  - Synthetic data generation
-  - Comprehensive visualization suite
-  - Model persistence and loading
-
----
-
-**Happy Classifying! 🎯**
